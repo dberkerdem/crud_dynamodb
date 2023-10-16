@@ -1,0 +1,32 @@
+# Ignore all .git files and directories
+.git
+
+# Ignore all .md files (like README.md)
+*.md
+
+# Ignore all test and testing files
+*_test.go
+**/*_test.go
+
+# Ignore all .env files
+*.env
+
+# Ignore vendor directory
+vendor/
+
+# Ignore Go build files
+**/*.o
+**/*.a
+**/*.so
+
+# Ignore all log files
+*.log
+
+# Ignore all binary files
+bin/
+
+# Ignore executables with specific extensions (replace .ext with your extensions)
+*.ext
+
+# Ignore swagger artifacts
+swagger.yaml
